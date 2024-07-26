@@ -1,25 +1,18 @@
-# Hardware
-Introduction:
-Farmers worldwide face challenges with inefficient irrigation systems leading to water wastage and decreased profits. Traditional systems lack the ability to measure farm conditions, causing over-watering and under-watering. The Smart Irrigation System (SIS) addresses these issues, aiming to provide a solution to water inefficiency.
+# Smart Street Lighting System
+This project presents an energy-efficient Smart Street Lighting System utilizing Arduino, LEDs, and various sensors. Traditional street lighting systems are manually controlled and often lead to energy wastage. This system automates streetlight operation by integrating Light Dependent Resistors (LDRs) and Infrared (IR) sensors. The LDR detects ambient light levels to ensure lights are only active during the night, while the IR sensors detect vehicle movement, dynamically adjusting light intensity to reduce power consumption. LEDs allow for precise intensity control and longer life, contributing to significant energy savings of 50-75% compared to conventional street lights. The system also includes speed detection to warn citizens of approaching high-speed vehicles. This smart lighting solution optimizes energy use, reduces maintenance costs, and minimizes light pollution.
 
-Objectives:
-The project's objective is to design a simple methodology using soil moisture sensors to monitor and control soil moisture continuously, optimizing irrigation resources. Additionally, the system checks methane levels in the soil, focusing on measuring soil moisture and methane gas.
+# List Of Components
+⦁	Breadboard
+⦁	Arduino Uno
+⦁	IR Sensor
+⦁	buzzer
+⦁	LCD
+⦁	Jumper, Wires, battery, etc.
 
-Literature Review:
-The implementation of a Smart Sprinkler (SSP) system, consisting of microcontrollers, sensors, and a decision-making system, is discussed. The SSP uses environmental data to determine irrigation needs, employing a truth table based on temperature and moisture sensor parameters. The integrated system improves water-energy efficiency.
+# Summary
+The intensity of a Street light increases when a vehicle passes through a streetlight, when the sensor detects the car, Arduino increases the intensity of the light and when a vehicle passes, the intensity automatically decreases after a few seconds. The system senses vehicle movement using IR and switches on lights only when needed at night when a vehicle passes by. Otherwise, the lights are switched off when not required. It also uses IR sensors to detect vehicles coming at a high speed and sends off an alarm to warn people.
 
-Components:
-The system incorporates components such as soil moisture sensors, methane sensors (MQ-4), Arduino Uno, DHT11 sensor, DC water pump, battery, LCD display, and various accessories.
 
-Practical Implementation:
-The smart irrigation system adapts to weather conditions, senses soil moisture, and operates the water pump accordingly. It enables remote water flow management, displays soil moisture data on an LCD, and ensures efficient water application.
 
-Results and Discussion:
-The system's sensors enable remote monitoring, contributing to a smart farm. Readings from soil moisture sensors are transmitted to an online database, displaying moisture content in soil categories. The system effectively prevents over-irrigation.
-
-Future Scope:
-Smart irrigation systems are crucial for modern agriculture, offering increased production in less time. The fully automated system minimizes manual handling, providing a comfortable solution for farmers in the face of climate changes.
-
-Conclusion:
-The designed system effectively monitors soil moisture levels, automating the irrigation process and preventing crop damage. The integration of IoT and automation shows potential for considerable development in farming by efficiently utilizing water resources.![Screenshot (343)](https://github.com/ritikasrv12/Hardware/assets/105850960/0ee704ab-8517-401a-a3f3-9b9470c13ee6)
+![Screenshot (343)](https://github.com/ritikasrv12/Hardware/assets/105850960/0ee704ab-8517-401a-a3f3-9b9470c13ee6)
 ![Screenshot (339)](https://github.com/ritikasrv12/Hardware/assets/105850960/1dee1654-0980-4b1a-aaff-b6b0e21bfc69)
